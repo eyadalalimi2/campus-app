@@ -5,7 +5,7 @@
     <path android:fillColor="#FFFFFFFF"
         android:pathData="M12,2a10,10 0 1,0 0.001,0z"/>
     <!-- إشارة صح -->
-    <path android:fillColor="#FF000000"
+    <path
         android:pathData="M8,12l2,2 6,-6"
         android:strokeColor="#FF000000"
         android:strokeWidth="2"
