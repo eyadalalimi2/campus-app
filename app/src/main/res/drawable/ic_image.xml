@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <!-- إطار -->
+    <path
+        android:pathData="M4,5 L20,5 L20,19 L4,19 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"/>
+    <!-- جبال -->
+    <path
+        android:pathData="M6,17 L18,17 L18,14 L15,12 L12.5,14.5 L10,12 L6,15 Z"
+        android:fillColor="#FF000000"/>
+    <!-- شمس -->
+    <path
+        android:pathData="M9,9 m -1.5,0 a 1.5,1.5 0 1,0 3,0 a 1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#FF000000"/>
+</vector>

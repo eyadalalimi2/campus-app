@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- القوس -->
+    <item android:gravity="top|center_horizontal" android:top="2dp">
+        <shape android:shape="oval">
+            <size android:width="18dp" android:height="12dp"/>
+            <stroke android:width="2dp" android:color="@color/clr_text"/>
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <!-- الجسم -->
+    <item android:gravity="bottom|center_horizontal" android:bottom="2dp">
+
+        <shape android:shape="rectangle">
+            <size android:width="20dp" android:height="14dp"/>
+            <solid android:color="@color/clr_text"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+</layer-list>

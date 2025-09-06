@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imgAvatar"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp" android:layout_height="100dp"
+            android:src="@drawable/avatar_placeholder"/>
+
+        <TextView android:id="@+id/txtName" android:textStyle="bold"
+            android:textSize="18sp" android:layout_marginTop="12dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/txtEmail"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/txtPhone"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/txtStudentNumber"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/txtCountry"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/txtIds"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEdit" android:text="تعديل البيانات"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChangePassword" android:text="تغيير كلمة المرور"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAvatar" android:text="تعديل الصورة"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnResendVerification"
+            android:text="@string/resend_verification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout" android:text="تسجيل الخروج"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

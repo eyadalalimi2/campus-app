@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eyadalalimi.medcurriculum">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Android 13+ -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <!-- للأقدم (اختياري) -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="MedCurriculum"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MedCurriculum">
+        <!-- Splash كمدخل -->
+        <activity
+            android:name=".features.splash.ui.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".features.auth.ui.LoginActivity" android:exported="false"/>
+        <activity android:name=".features.auth.ui.RegisterActivity" android:exported="false"/>
+        <activity android:name=".features.auth.ui.ForgotPasswordActivity" android:exported="false"/>
+        <activity android:name=".features.auth.ui.ResetPasswordActivity" android:exported="false"/>
+        <activity android:name=".features.auth.ui.ResendVerificationActivity" android:exported="false"/>
+
+        <activity android:name=".features.auth.ui.VerifyEmailActivity"
+            android:exported="true">
+            <!-- استقبال الرابط من الويب -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https" android:host="obdcodehub.com"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".features.profile.ui.ProfileActivity" android:exported="false"/>
+        <activity android:name=".features.profile.ui.EditProfileActivity" android:exported="false"/>
+        <activity android:name=".features.profile.ui.ChangePasswordActivity" android:exported="false"/>
+        <activity android:name=".features.profile.ui.AvatarActivity" android:exported="false"/>
+    </application>
+
+</manifest>

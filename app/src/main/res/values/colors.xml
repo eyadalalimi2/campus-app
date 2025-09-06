@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- لوحة ألوان رئيسية (يمكن مواءمتها مع هوية الجامعات لاحقًا) -->
+    <color name="mdc_theme_primary">#0D6EFD</color>
+    <color name="mdc_theme_onPrimary">#FFFFFF</color>
+
+    <color name="mdc_theme_secondary">#6C757D</color>
+    <color name="mdc_theme_onSecondary">#FFFFFF</color>
+
+    <color name="mdc_theme_background">#FFFFFFFF</color>
+    <color name="mdc_theme_onBackground">#FF000000</color>
+
+    <color name="mdc_theme_surface">#FFFFFFFF</color>
+    <color name="mdc_theme_onSurface">#FF000000</color>
+
+    <color name="mdc_error">#B00020</color>
+    <color name="mdc_onError">#FFFFFF</color>
+
+    <!-- حيادية -->
+    <color name="neutral_100">#F5F5F5</color>
+    <color name="neutral_300">#E0E0E0</color>
+    <color name="neutral_700">#616161</color>
+    <color name="clr_bg">#F7F9FC</color>
+    <color name="clr_card">#FFFFFFFF</color>
+    <color name="clr_text">#1F2937</color>
+    <color name="clr_subtext">#6B7280</color>
+
+    <color name="clr_primary">#2563EB</color>
+    <color name="clr_primary_700">#1D4ED8</color>
+    <color name="clr_accent">#10B981</color>
+    <color name="clr_danger">#EF4444</color>
+
+    <color name="clr_border">#E5E7EB</color>
+    <color name="clr_muted">#F3F4F6</color>
+    <color name="clr_shadow">#1A000000</color>
+    <color name="clr_disabled">#33000000</color>
+</resources>

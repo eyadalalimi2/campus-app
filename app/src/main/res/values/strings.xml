@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- عام -->
+    <string name="app_name">MedCurriculum</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="pick_image">اختيار صورة</string>
+    <string name="upload">رفع/تحديث</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="error_generic">حدث خطأ</string>
+
+    <!-- دخول -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">إنشاء حساب جديد</string>
+    <string name="forgot_password">نسيت كلمة السر؟</string>
+    <string name="enter_email_password">أدخل البريد وكلمة المرور</string>
+
+    <!-- تسجيل -->
+    <string name="register">إنشاء حساب</string>
+    <string name="name">الاسم</string>
+    <string name="phone">الهاتف</string>
+    <string name="student_number">الرقم الجامعي</string>
+    <string name="country">الدولة</string>
+    <string name="university_id">university_id</string>
+    <string name="college_id">college_id</string>
+    <string name="major_id">major_id</string>
+    <string name="complete_required_fields">أكمل الحقول المطلوبة</string>
+    <string name="registered_check_email">تم التسجيل - تحقق بريدك</string>
+
+    <!-- نسيان/إعادة تعيين -->
+    <string name="send_reset_link">إرسال رابط إعادة التعيين</string>
+    <string name="reset_token">Reset Token</string>
+    <string name="new_password">New Password</string>
+    <string name="enter_email">أدخل البريد</string>
+    <string name="reset_done">تم</string>
+    <string name="complete_data">أكمل البيانات</string>
+
+    <!-- التحقق من البريد -->
+    <string name="verify_email_done">تم التحقق من البريد</string>
+    <string name="invalid_link">رابط غير صالح</string>
+    <string name="cannot_parse_link">لا يمكن تحليل الرابط</string>
+
+    <!-- البروفايل -->
+    <string name="edit_data">تعديل البيانات</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="edit_avatar">تعديل الصورة</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="saved">تم الحفظ</string>
+    <string name="updated">تم التحديث</string>
+    <string name="deleted">تم الحذف</string>
+    <string name="choose_image_first">اختر صورة</string>
+    <string name="check_fields">تحقق من الحقول</string>
+    <string name="current_password">كلمة المرور الحالية</string>
+    <string name="password_new">كلمة المرور الجديدة</string>
+    <string name="password_confirm">تأكيد كلمة المرور</string>
+    <string name="resend_verification">إعادة إرسال رابط التحقق</string>
+    <string name="resend_verification_hint">سيتم إرسال رابط تحقق إلى بريدك الإلكتروني المسجل.</string>
+
+</resources>

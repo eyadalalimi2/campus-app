@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <!-- دائرة خلفية -->
+    <path
+        android:fillColor="@color/mdc_theme_primary"
+        android:pathData="M24,2a22,22 0 1,0 0,44a22,22 0 1,0 0,-44z"/>
+    <!-- حرف M بسيط -->
+    <path
+        android:fillColor="@color/mdc_theme_onPrimary"
+        android:pathData="M12,34 L12,14 L18,22 L24,14 L30,22 L36,14 L36,34 L30,26 L24,34 L18,26z"/>
+</vector>
