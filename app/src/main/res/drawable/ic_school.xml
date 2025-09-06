@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <!-- سقف -->
+    <path android:fillColor="#FF000000" android:pathData="M4,10l8,-5 8,5 -2,0 -6,-3.6 -6,3.6z"/>
+    <!-- مبنى -->
+    <path android:fillColor="#FF000000" android:pathData="M6,10h12v10h-12z"/>
+    <!-- باب -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M11,14h2v6h-2z"/>
+</vector>

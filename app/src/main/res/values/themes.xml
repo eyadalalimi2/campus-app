@@ -98,4 +98,22 @@
         <item name="android:textAllCaps">false</item>
         <item name="android:textStyle">bold</item>
     </style>
+    <!-- نمط موحد لحقول كلمة المرور -->
+    <style name="TIL.Outlined">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxBackgroundColor">@color/clr_card</item>
+        <item name="boxStrokeColor">@color/ti_box_stroke</item>
+        <item name="boxStrokeErrorColor">@color/ti_box_error_stroke</item>
+        <item name="hintTextColor">@color/ti_hint</item>
+        <item name="android:textColorHint">@color/ti_hint</item>
+        <item name="counterTextColor">@color/clr_subtext</item>
+        <item name="errorTextColor">@color/ti_error_text</item>
+        <item name="hintAnimationEnabled">true</item>
+    </style>
+    <style name="Text.Link">
+        <item name="android:textColor">@color/clr_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/space_xs</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
 </resources>

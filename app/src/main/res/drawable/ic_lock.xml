@@ -1,19 +1,12 @@
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- القوس -->
-    <item android:gravity="top|center_horizontal" android:top="2dp">
-        <shape android:shape="oval">
-            <size android:width="18dp" android:height="12dp"/>
-            <stroke android:width="2dp" android:color="@color/clr_text"/>
-            <solid android:color="@android:color/transparent"/>
-        </shape>
-    </item>
-    <!-- الجسم -->
-    <item android:gravity="bottom|center_horizontal" android:bottom="2dp">
-
-        <shape android:shape="rectangle">
-            <size android:width="20dp" android:height="14dp"/>
-            <solid android:color="@color/clr_text"/>
-            <corners android:radius="4dp"/>
-        </shape>
-    </item>
-</layer-list>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <path
+        android:pathData="M7,10 L17,10 L17,20 L7,20 Z"
+        android:fillColor="#FF000000"/>
+    <path
+        android:pathData="M9,10 C9,7.8 10.8,6 13,6 C15.2,6 17,7.8 17,10"
+        android:strokeWidth="2"
+        android:strokeColor="#FF000000"
+        android:fillColor="@android:color/transparent"/>
+</vector>
