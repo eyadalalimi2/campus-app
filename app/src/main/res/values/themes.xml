@@ -31,35 +31,13 @@
     <style name="Widget.MedCurriculum.MaterialButton" parent="Widget.Material3.Button">
         <item name="android:layout_marginTop">12dp</item>
     </style>
-    <!-- نصوص -->
-    <style name="Text.H1">
-        <item name="android:textSize">@dimen/sp_h1</item>
-        <item name="android:textColor">@color/clr_text</item>
-        <item name="android:textStyle">bold</item>
-    </style>
+
 
     <style name="Text.H2">
         <item name="android:textSize">@dimen/sp_h2</item>
         <item name="android:textColor">@color/clr_text</item>
         <item name="android:textStyle">bold</item>
     </style>
-
-    <style name="Text.Body">
-        <item name="android:textSize">@dimen/sp_body</item>
-        <item name="android:textColor">@color/clr_text</item>
-    </style>
-
-    <style name="Text.Subtle">
-        <item name="android:textSize">@dimen/sp_body</item>
-        <item name="android:textColor">@color/clr_subtext</item>
-    </style>
-
-    <!-- بطاقات -->
-    <style name="Card">
-        <item name="android:background">@drawable/bg_card</item>
-        <item name="android:padding">@dimen/space_xl</item>
-    </style>
-
     <!-- حقول -->
     <style name="Input">
         <item name="android:background">@drawable/bg_input</item>
@@ -69,9 +47,34 @@
         <item name="android:textColor">@color/clr_text</item>
         <item name="android:textSize">@dimen/sp_body</item>
     </style>
+    <!-- ====== نصوص (Text)* ====== -->
+    <!-- قاعدة عامة لتوحيد النص -->
+    <style name="Text">
+        <item name="android:textColor">@color/clr_text</item>
+        <item name="android:textSize">@dimen/sp_body</item>
+    </style>
 
-    <!-- أزرار -->
-    <style name="Button.Primary">
+    <style name="Text.Body" parent="Text" />
+
+    <style name="Text.H1" parent="Text">
+        <item name="android:textSize">@dimen/sp_h1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Subtle" parent="Text">
+        <item name="android:textColor">@color/clr_subtext</item>
+    </style>
+
+    <style name="Text.Link" parent="Text">
+        <item name="android:textColor">@color/clr_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/space_xs</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <!-- ====== أزرار (Button)* ====== -->
+    <!-- alias للاسم العام @style/Button -->
+    <style name="Button">
         <item name="android:background">@drawable/btn_primary</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:minHeight">@dimen/btn_height</item>
@@ -81,6 +84,9 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <!-- المستخدم سابقًا للأزرار الأساسية -->
+    <style name="Button.Primary" parent="Button" />
+
     <style name="Button.Tonal">
         <item name="android:background">@drawable/btn_tonal</item>
         <item name="android:textColor">@color/clr_text</item>
@@ -89,6 +95,7 @@
         <item name="android:paddingRight">@dimen/space_xl</item>
         <item name="android:textAllCaps">false</item>
     </style>
+
     <style name="Button.Danger">
         <item name="android:background">@drawable/btn_danger</item>
         <item name="android:textColor">@android:color/white</item>
@@ -98,22 +105,24 @@
         <item name="android:textAllCaps">false</item>
         <item name="android:textStyle">bold</item>
     </style>
-    <!-- نمط موحد لحقول كلمة المرور -->
-    <style name="TIL.Outlined">
+
+    <!-- ====== TextInputLayout (TIL)* ====== -->
+    <!-- alias للاسم العام @style/TIL -->
+    <style name="TIL">
         <item name="boxBackgroundMode">outline</item>
         <item name="boxBackgroundColor">@color/clr_card</item>
         <item name="boxStrokeColor">@color/ti_box_stroke</item>
         <item name="boxStrokeErrorColor">@color/ti_box_error_stroke</item>
         <item name="hintTextColor">@color/ti_hint</item>
-        <item name="android:textColorHint">@color/ti_hint</item>
-        <item name="counterTextColor">@color/clr_subtext</item>
         <item name="errorTextColor">@color/ti_error_text</item>
         <item name="hintAnimationEnabled">true</item>
     </style>
-    <style name="Text.Link">
-        <item name="android:textColor">@color/clr_primary</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:padding">@dimen/space_xs</item>
-        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+
+    <style name="TIL.Outlined" parent="TIL" />
+
+    <!-- ====== بطاقات (Card) ====== -->
+    <style name="Card">
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:padding">@dimen/space_xl</item>
     </style>
 </resources>
